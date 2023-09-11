@@ -1,0 +1,45 @@
+---
+title: "Causal Inference in R Workshop"
+---
+
+<img src="img/r-causal-hex.png" align="right" height="138" style="filter: drop-shadow(3px 3px 4px grey)
+" />
+
+Welcome to the Causal Inference in R Workshop!
+
+## Description
+
+In this workshop, we’ll teach the essential elements of answering causal questions in R through causal diagrams, and causal modeling techniques such as propensity scores and inverse probability weighting.
+
+In both data science and academic research, prediction modeling is often not enough; to answer many questions, we need to approach them causally. In this workshop, we’ll teach the essential elements of answering causal questions in R through causal diagrams, and causal modeling techniques such as propensity scores and inverse probability weighting. We’ll also show that by distinguishing predictive models from causal models, we can better take advantage of both tools. You’ll be able to use the tools you already know--the tidyverse, regression models, and more--to answer the questions that are important to your work.
+
+## Audience
+This course is for you if you:
+
+- know how to fit a linear regression model in R,
+- have a basic understanding of data manipulation and visualization using tidyverse tools, and
+- are interested in understanding the fundamentals behind how to move from estimating correlations to causal relationships.
+
+## Topics
+
+We offer this workshop in one-day and two-day formats. 
+
+In the one-day format, we cover:
+
+* Examples of the causal inference workflow
+* When we can use standard methods and when we should use specialized causal methods
+* Specifying causal questions as Directed Acyclic Graphs (DAGs)
+* Fitting, diagnosing, and applying propensity score models using weighting and matching
+
+In the two-day format, we cover the above plus these additional topics:
+
+* Sensitivity analysis
+* G-computation
+* Continuous exposures with g-computation
+* And more worked examples
+
+Sometimes we have extra time, and so we also have a couple of bonus topics:
+
+* Continuous exposures with propensity scores
+* Selection bias
+

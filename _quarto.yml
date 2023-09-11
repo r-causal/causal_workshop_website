@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Causal Inference in R Workshop"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: setup.qmd
+        text: Setup and Materials
+      - text: Resources
+        href: resources.qmd
+      - text: "Read the Book"
+        href: https://www.r-causal.org/
+      - text: "Follow the Blog"
+        href: https://r-causal.github.io/r-causal-blog/
+
+format:
+  html:
+    theme: [minty, styles.scss]
+    css: styles.css
+    toc: true
+
+editor: visual
+
