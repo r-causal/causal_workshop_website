@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Setup and Materials",
+    "section": "",
+    "text": "We will provide a link to a Posit Cloud space for the workshop. However, we recommend also installing the materials locally so you have two options.\nTo install the required packages and course materials, we have an R package called {causalworkshop} to help you do that! You can install {causalworkshop} from GitHub with:\ninstall.packages(\"remotes\")\nremotes::install_github(\"malcolmbarrett/causalworkshop\")\nOnce you’ve installed the package, install the workshop with\ncausalworkshop::install_workshop()\nBy default, this package downloads the materials to a conspicuous place like your Desktop. You can also tell install_workshop() exactly where to put the materials:\ncausalworkshop::install_workshop(\"a/path/on/your/computer\")\nYou can also find the materials on the workshop repository."
+  },
+  {
+    "objectID": "setup.html#hosted-slides",
+    "href": "setup.html#hosted-slides",
+    "title": "Setup and Materials",
+    "section": "Hosted slides",
+    "text": "Hosted slides\nFollowing the above instructions will download a PDF copy of the slides. If you’d like to see the HTML version of the slides, we recommend taking a look at the hosted versions rather than the raw versions in the repository.\n\nSlides\n\n00 Intro\n01 Whole Game\n02 When Standard Methods Succeed\n03 Causal Inference with group_by and summarise\n04 Causal Diagrams\n05 Causal Inference is Not Just a Statistics Problem\n06 Introduction to Propensity Scores\n07 Using Propensity Scores\n08 Checking Propensity Scores\n09 Fitting the outcome model\n10 Continuous Exposures and G-Computation\n11 Tipping Point Sensitivity Analyses\n12 Whole Game (Your Turn)\n13 Bonus: Selection Bias\n14 Bonus: Continous Exposures with Propensity Scores"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Causal Inference in R Workshop",
@@ -26,20 +40,6 @@
     "title": "Causal Inference in R Workshop",
     "section": "Topics",
     "text": "Topics\nWe offer this workshop in one-day and two-day formats.\nIn the one-day format, we cover:\n\nExamples of the causal inference workflow\nWhen we can use standard methods and when we should use specialized causal methods\nSpecifying causal questions as Directed Acyclic Graphs (DAGs)\nFitting, diagnosing, and applying propensity score models using weighting and matching\n\nIn the two-day format, we cover the above plus these additional topics:\n\nSensitivity analysis\nG-computation\nContinuous exposures with g-computation\nAnd more worked examples\n\nSometimes we have extra time, and so we also have a couple of bonus topics:\n\nContinuous exposures with propensity scores\nSelection bias"
-  },
-  {
-    "objectID": "setup.html",
-    "href": "setup.html",
-    "title": "Setup and Materials",
-    "section": "",
-    "text": "We will provide a link to a Posit Cloud space for the workshop. However, we recommend also installing the materials locally so you have two options.\nTo install the required packages and course materials, we have an R package called {causalworkshop} to help you do that! You can install {causalworkshop} from GitHub with:\ninstall.packages(\"remotes\")\nremotes::install_github(\"malcolmbarrett/causalworkshop\")\nOnce you’ve installed the package, install the workshop with\ncausalworkshop::install_workshop()\nBy default, this package downloads the materials to a conspicuous place like your Desktop. You can also tell install_workshop() exactly where to put the materials:\ncausalworkshop::install_workshop(\"a/path/on/your/computer\")\nYou can also find the materials on the workshop repository."
-  },
-  {
-    "objectID": "setup.html#hosted-slides",
-    "href": "setup.html#hosted-slides",
-    "title": "Setup and Materials",
-    "section": "Hosted slides",
-    "text": "Hosted slides\nFollowing the above instructions will download a PDF copy of the slides. If you’d like to see the HTML version of the slides, we recommend taking a look at the hosted versions rather than the raw versions in the repository.\n\nSlides\n\n00 Intro\n01 Whole Game\n02 When Standard Methods Succeed\n03 Causal Inference with group_by and summarise\n04 Causal Diagrams\n05 Causal Inference is Not Just a Statistics Problem\n06 Introduction to Propensity Scores\n07 Using Propensity Scores\n08 Checking Propensity Scores\n09 Fitting the outcome model\n10 Continuous Exposures and G-Computation\n11 Tipping Point Sensitivity Analyses\n12 Whole Game (Your Turn)\n13 Bonus: Selection Bias\n14 Bonus: Continous Exposures with Propensity Scores"
   },
   {
     "objectID": "resources.html",

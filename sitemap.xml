@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://r-causal.github.io/causal_workshop_website/index.html</loc>
-    <lastmod>2023-09-11T20:51:26.570Z</lastmod>
+    <loc>https://github.com/r-causal/causal_workshop_website/setup.html</loc>
+    <lastmod>2023-09-11T22:23:55.092Z</lastmod>
   </url>
   <url>
-    <loc>https://r-causal.github.io/causal_workshop_website/setup.html</loc>
-    <lastmod>2023-09-11T20:51:27.020Z</lastmod>
+    <loc>https://github.com/r-causal/causal_workshop_website/index.html</loc>
+    <lastmod>2023-09-11T22:23:53.132Z</lastmod>
   </url>
   <url>
-    <loc>https://r-causal.github.io/causal_workshop_website/resources.html</loc>
-    <lastmod>2023-09-11T20:51:27.284Z</lastmod>
+    <loc>https://github.com/r-causal/causal_workshop_website/resources.html</loc>
+    <lastmod>2023-09-11T22:23:54.328Z</lastmod>
   </url>
 </urlset>
