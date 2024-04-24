@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "The best complement to the workshop is our book, so make sure to check it out!\n\nFurther reading\n\nOther books\nThere are also several other excellent books on causal inference. Our book is different in its focus on R, but it’s still helpful to see this area from other perspectives. A few books you might like:\n\nCausal Inference: What If?\nCausal Inference: The Mixtape\nThe Effect\n\nThe first book is focused on epidemiology. The latter two are focused on econometrics. We also recommend The Book of Why for more on causal diagrams.\n\n\nInteresting papers\nHere are some interesting papers we commonly mention in the workshop or related to key topics:\n\nA Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks: A musing on the tasks of data science (description, prediction, and causal inference)\nTo Explain or Predict: A detailed analysis of the differences between causal and predictive modeling.\nChoosing the Causal Estimand for Propensity Score Analysis of Observational Studies: A discussion of when to use different estimands. Includes a helpful table with a summary.\nTo Adjust or Not to Adjust? Sensitivity Analysis of M-Bias and Butterfly-Bias: A simulation study showing that for m-bias, confounding is usually a bigger issue than collider bias.\n\nEffects of Adjusting for Instrumental Variables on Bias and Precision of Effect Estimates: A simulation study that shows, for many analyses, the risk of confounding is greater than the risk of bias from adjusting for an instrumental variable.\ntipr: An R package for sensitivity analyses for unmeasured confounders: A detailed introduction to tipr.\nMetformin use and incidence cancer risk: evidence for a selective protective effect against liver cancer: The paper we reference in the sensitivity analysis section."
+  },
+  {
     "objectID": "setup.html",
     "href": "setup.html",
     "title": "Setup and Materials",
@@ -47,12 +54,5 @@
     "title": "Causal Inference in R Workshop",
     "section": "R Packages",
     "text": "R Packages\nThis workshop is very hands-on! You’ll do a lot of coding throughout our time together. For installation instructions, please see the Installation and Materials page.\nWe’ll use opinionated R packages that we’ve developed to make causal inference in R easier and more principled. Our packages are designed to work well with each other and in the Tidyverse. They’re also quite modular, meaning you can pick and choose the packages you like to work in a wide variety of settings. You can find the source code for these packages on our GitHub organization."
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "The best complement to the workshop is our book, so make sure to check it out!\n\nFurther reading\n\nOther books\nThere are also several other excellent books on causal inference. Our book is different in its focus on R, but it’s still helpful to see this area from other perspectives. A few books you might like:\n\nCausal Inference: What If?\nCausal Inference: The Mixtape\nThe Effect\n\nThe first book is focused on epidemiology. The latter two are focused on econometrics. We also recommend The Book of Why for more on causal diagrams.\n\n\nInteresting papers\nHere are some interesting papers we commonly mention in the workshop or related to key topics:\n\nA Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks: A musing on the tasks of data science (description, prediction, and causal inference)\nTo Explain or Predict: A detailed analysis of the differences between causal and predictive modeling.\nChoosing the Causal Estimand for Propensity Score Analysis of Observational Studies: A discussion of when to use different estimands. Includes a helpful table with a summary.\nTo Adjust or Not to Adjust? Sensitivity Analysis of M-Bias and Butterfly-Bias: A simulation study showing that for m-bias, confounding is usually a bigger issue than collider bias.\n\nEffects of Adjusting for Instrumental Variables on Bias and Precision of Effect Estimates: A simulation study that shows, for many analyses, the risk of confounding is greater than the risk of bias from adjusting for an instrumental variable."
   }
 ]
