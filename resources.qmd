@@ -20,12 +20,14 @@ The first book is focused on epidemiology.
 The latter two are focused on econometrics.
 We also recommend *The Book of Why* for more on causal diagrams.
 
-#### Interesting papers 
+#### Interesting papers
 
 Here are some interesting papers we commonly mention in the workshop or related to key topics:
 
-* [A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.tandfonline.com/doi/full/10.1080/09332480.2019.1579578): A musing on the tasks of data science (description, prediction, and causal inference)
-* [To Explain or Predict](https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf): A detailed analysis of the differences between causal and predictive modeling.
-* [Choosing the Causal Estimand for Propensity Score Analysis of Observational Studies](https://arxiv.org/abs/2106.10577): A discussion of when to use different estimands. Includes a helpful table with a summary.
-* [To Adjust or Not to Adjust? Sensitivity Analysis of M-Bias and Butterfly-Bias](https://www.degruyter.com/document/doi/10.1515/jci-2013-0021/html): A simulation study showing that for m-bias, confounding is usually a bigger issue than collider bias.  
-* [Effects of Adjusting for Instrumental Variables on Bias and Precision of Effect Estimates](https://academic.oup.com/aje/article/174/11/1213/111733?login=false): A simulation study that shows, for many analyses, the risk of confounding is greater than the risk of bias from adjusting for an instrumental variable.
+-   [A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.tandfonline.com/doi/full/10.1080/09332480.2019.1579578): A musing on the tasks of data science (description, prediction, and causal inference)
+-   [To Explain or Predict](https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf): A detailed analysis of the differences between causal and predictive modeling.
+-   [Choosing the Causal Estimand for Propensity Score Analysis of Observational Studies](https://arxiv.org/abs/2106.10577): A discussion of when to use different estimands. Includes a helpful table with a summary.
+-   [To Adjust or Not to Adjust? Sensitivity Analysis of M-Bias and Butterfly-Bias](https://www.degruyter.com/document/doi/10.1515/jci-2013-0021/html): A simulation study showing that for m-bias, confounding is usually a bigger issue than collider bias.\
+-   [Effects of Adjusting for Instrumental Variables on Bias and Precision of Effect Estimates](https://academic.oup.com/aje/article/174/11/1213/111733?login=false): A simulation study that shows, for many analyses, the risk of confounding is greater than the risk of bias from adjusting for an instrumental variable.
+-   [tipr: An R package for sensitivity analyses for unmeasured confounders](https://doi.org/10.21105/joss.04495): A detailed introduction to tipr.
+-   [Metformin use and incidence cancer risk: evidence for a selective protective effect against liver cancer](https://pubmed.ncbi.nlm.nih.gov/30022336/): The paper we reference in the sensitivity analysis section.
