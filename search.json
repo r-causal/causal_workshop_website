@@ -14,6 +14,13 @@
     "text": "We will provide a link to a Posit Cloud space for the workshop. However, we recommend also installing the materials locally so you have two options.\nTo install the required packages and course materials, we have an R package called {causalworkshop} to help you do that! You can install {causalworkshop} from GitHub with:\ninstall.packages(\"remotes\")\nremotes::install_github(\"malcolmbarrett/causalworkshop\")\nOnce you’ve installed the package, install the workshop with\ncausalworkshop::install_workshop()\nBy default, this package downloads the materials to a conspicuous place like your Desktop. You can also tell install_workshop() exactly where to put the materials:\ncausalworkshop::install_workshop(\"a/path/on/your/computer\")\nYou can also find the materials on the workshop repository."
   },
   {
+    "objectID": "setup.html#posit-cloud-workspace",
+    "href": "setup.html#posit-cloud-workspace",
+    "title": "Setup and Materials",
+    "section": "Posit Cloud workspace",
+    "text": "Posit Cloud workspace\nA public cloud workspace with all materials and packages installed is also available on Posit Cloud. Note that for certain workshops, we may provide a custom link to a cloud workspace."
+  },
+  {
     "objectID": "setup.html#hosted-slides",
     "href": "setup.html#hosted-slides",
     "title": "Setup and Materials",
