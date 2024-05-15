@@ -8,11 +8,11 @@ We will provide a link to a Posit Cloud space for the workshop.
 However, we recommend also installing the materials locally so you have two options.
 
 To install the required packages and course materials, we have an R package called {[causalworkshop](https://github.com/malcolmbarrett/causalworkshop)} to help you do that!
-You can install {[causalworkshop](https://github.com/malcolmbarrett/causalworkshop)} from GitHub with:
+You can install {[causalworkshop](https://github.com/r-causal/causalworkshop)} from GitHub with:
 
 ``` r
 install.packages("remotes")
-remotes::install_github("malcolmbarrett/causalworkshop")
+remotes::install_github("r-causal/causalworkshop")
 ```
 
 Once you've installed the package, install the workshop with
@@ -32,7 +32,8 @@ You can also find the materials on the [workshop repository](https://github.com/
 
 ## Posit Cloud workspace
 
-A public cloud workspace with all materials and packages installed is also available on [Posit Cloud](https://posit.cloud/content/1975583). *Note that for certain workshops, we may provide a custom link to a cloud workspace.*
+A public cloud workspace with all materials and packages installed is also available on [Posit Cloud](https://posit.cloud/content/1975583).
+*Note that for certain workshops, we may provide a custom link to a cloud workspace.*
 
 ## Hosted slides
 
