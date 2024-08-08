@@ -11,8 +11,8 @@ To install the required packages and course materials, we have an R package call
 You can install {[causalworkshop](https://github.com/r-causal/causalworkshop)} from GitHub with:
 
 ``` r
-install.packages("remotes")
-remotes::install_github("r-causal/causalworkshop")
+install.packages("pak")
+pak::pak("r-causal/causalworkshop")
 ```
 
 Once you've installed the package, install the workshop with
