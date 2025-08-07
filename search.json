@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "setup.html",
-    "href": "setup.html",
-    "title": "Setup and Materials",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "We will provide a link to a Posit Cloud space for the workshop. However, we recommend also installing the materials locally so you have two options.\nTo install the required packages and course materials, we have an R package called {causalworkshop} to help you do that! You can install {causalworkshop} from GitHub with:\ninstall.packages(\"pak\")\npak::pak(\"r-causal/causalworkshop\")\nOnce you’ve installed the package, install the workshop with\ncausalworkshop::install_workshop()\nBy default, this package downloads the materials to a conspicuous place like your Desktop. You can also tell install_workshop() exactly where to put the materials:\ncausalworkshop::install_workshop(\"a/path/on/your/computer\")\nYou can also find the materials on the workshop repository."
-  },
-  {
-    "objectID": "setup.html#posit-cloud-workspace",
-    "href": "setup.html#posit-cloud-workspace",
-    "title": "Setup and Materials",
-    "section": "Posit Cloud workspace",
-    "text": "Posit Cloud workspace\nA public cloud workspace with all materials and packages installed is also available on Posit Cloud. Note that for certain workshops, we may provide a custom link to a cloud workspace."
-  },
-  {
-    "objectID": "setup.html#hosted-slides",
-    "href": "setup.html#hosted-slides",
-    "title": "Setup and Materials",
-    "section": "Hosted slides",
-    "text": "Hosted slides\nFollowing the above instructions will download a PDF copy of the slides. If you’d like to see the HTML version of the slides, we recommend taking a look at the hosted versions rather than the raw versions in the repository.\n\nSlides\n\n00 Intro\n01 Whole Game\n02 When Standard Methods Succeed\n03 Causal Inference with group_by and summarise\n04 Causal Diagrams\n05 Causal Inference is Not Just a Statistics Problem\n06 Introduction to Propensity Scores\n07 Using Propensity Scores\n08 Checking Propensity Scores\n09 Fitting the outcome model\n10 Continuous Exposures and G-Computation\n11 Tipping Point Sensitivity Analyses\n12 Whole Game (Your Turn)\n13 Bonus: Selection Bias\n14 Bonus: Continous Exposures with Propensity Scores\n15 Bonus: Machine Learning for Causal Inference"
+    "text": "The best complement to the workshop is our book, so make sure to check it out!\n\nFurther reading\n\nOther books\nThere are also several other excellent books on causal inference. Our book is different in its focus on R, but it’s still helpful to see this area from other perspectives. A few books you might like:\n\nCausal Inference: What If?\nCausal Inference: The Mixtape\nThe Effect\n\nThe first book is focused on epidemiology. The latter two are focused on econometrics. We also recommend The Book of Why for more on causal diagrams.\n\n\nInteresting papers\nHere are some interesting papers we commonly mention in the workshop or related to key topics:\n\nA Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks: A musing on the tasks of data science (description, prediction, and causal inference)\nTo Explain or Predict: A detailed analysis of the differences between causal and predictive modeling.\nChoosing the Causal Estimand for Propensity Score Analysis of Observational Studies: A discussion of when to use different estimands. Includes a helpful table with a summary.\nTo Adjust or Not to Adjust? Sensitivity Analysis of M-Bias and Butterfly-Bias: A simulation study showing that for m-bias, confounding is usually a bigger issue than collider bias.\n\nEffects of Adjusting for Instrumental Variables on Bias and Precision of Effect Estimates: A simulation study that shows, for many analyses, the risk of confounding is greater than the risk of bias from adjusting for an instrumental variable.\ntipr: An R package for sensitivity analyses for unmeasured confounders: A detailed introduction to tipr.\nMetformin use and incidence cancer risk: evidence for a selective protective effect against liver cancer: The paper we reference in the sensitivity analysis section."
   },
   {
     "objectID": "index.html",
@@ -56,10 +42,24 @@
     "text": "R Packages\nThis workshop is very hands-on! You’ll do a lot of coding throughout our time together. For installation instructions, please see the Installation and Materials page.\nWe’ll use opinionated R packages that we’ve developed to make causal inference in R easier and more principled. Our packages are designed to work well with each other and in the Tidyverse. They’re also quite modular, meaning you can pick and choose the packages you like to work in a wide variety of settings. You can find the source code for these packages on our GitHub organization."
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Setup and Materials",
     "section": "",
-    "text": "The best complement to the workshop is our book, so make sure to check it out!\n\nFurther reading\n\nOther books\nThere are also several other excellent books on causal inference. Our book is different in its focus on R, but it’s still helpful to see this area from other perspectives. A few books you might like:\n\nCausal Inference: What If?\nCausal Inference: The Mixtape\nThe Effect\n\nThe first book is focused on epidemiology. The latter two are focused on econometrics. We also recommend The Book of Why for more on causal diagrams.\n\n\nInteresting papers\nHere are some interesting papers we commonly mention in the workshop or related to key topics:\n\nA Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks: A musing on the tasks of data science (description, prediction, and causal inference)\nTo Explain or Predict: A detailed analysis of the differences between causal and predictive modeling.\nChoosing the Causal Estimand for Propensity Score Analysis of Observational Studies: A discussion of when to use different estimands. Includes a helpful table with a summary.\nTo Adjust or Not to Adjust? Sensitivity Analysis of M-Bias and Butterfly-Bias: A simulation study showing that for m-bias, confounding is usually a bigger issue than collider bias.\n\nEffects of Adjusting for Instrumental Variables on Bias and Precision of Effect Estimates: A simulation study that shows, for many analyses, the risk of confounding is greater than the risk of bias from adjusting for an instrumental variable.\ntipr: An R package for sensitivity analyses for unmeasured confounders: A detailed introduction to tipr.\nMetformin use and incidence cancer risk: evidence for a selective protective effect against liver cancer: The paper we reference in the sensitivity analysis section."
+    "text": "We will provide a link to a Posit Cloud space for the workshop. However, we recommend also installing the materials locally so you have two options.\nTo install the required packages and course materials, we have an R package called {causalworkshop} to help you do that! You can install {causalworkshop} from GitHub with:\ninstall.packages(\"pak\")\npak::pak(\"r-causal/causalworkshop\")\nOnce you’ve installed the package, install the workshop with\ncausalworkshop::install_workshop()\nBy default, this package downloads the materials to a conspicuous place like your Desktop. You can also tell install_workshop() exactly where to put the materials:\ncausalworkshop::install_workshop(\"a/path/on/your/computer\")\nYou can also find the materials on the workshop repository."
+  },
+  {
+    "objectID": "setup.html#posit-cloud-workspace",
+    "href": "setup.html#posit-cloud-workspace",
+    "title": "Setup and Materials",
+    "section": "Posit Cloud workspace",
+    "text": "Posit Cloud workspace\nA public cloud workspace with all materials and packages installed is also available on Posit Cloud. Note that for certain workshops, we may provide a custom link to a cloud workspace."
+  },
+  {
+    "objectID": "setup.html#hosted-slides",
+    "href": "setup.html#hosted-slides",
+    "title": "Setup and Materials",
+    "section": "Hosted slides",
+    "text": "Hosted slides\nFollowing the above instructions will download a PDF copy of the slides. If you’d like to see the HTML version of the slides, we recommend taking a look at the hosted versions rather than the raw versions in the repository.\n\nSlides\n\n00 Intro\n01 Whole Game\n02 When Standard Methods Succeed\n03 Causal Inference with group_by and summarise\n04 Causal Diagrams\n05 Causal Inference is Not Just a Statistics Problem\n06 Introduction to Propensity Scores\n07 Using Propensity Scores\n08 Checking Propensity Scores\n09 Fitting the outcome model\n10 Continuous Exposures and G-Computation\n11 Tipping Point Sensitivity Analyses\n12 Whole Game (Your Turn)\n13 Bonus: Selection Bias\n14 Bonus: Continous Exposures with Propensity Scores\n15 Bonus: Machine Learning for Causal Inference"
   }
 ]
