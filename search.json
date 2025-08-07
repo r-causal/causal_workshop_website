@@ -18,7 +18,7 @@
     "href": "setup.html#hosted-slides",
     "title": "Setup and Materials",
     "section": "Hosted slides",
-    "text": "Hosted slides\nFollowing the above instructions will download a PDF copy of the slides. If you’d like to see the HTML version of the slides, we recommend taking a look at the hosted versions rather than the raw versions in the repository.\n\nSlides\n\n00 Intro\n01 Whole Game\n02 When Standard Methods Succeed\n03 Causal Inference with group_by and summarise\n04 Causal Diagrams\n05 Causal Inference is Not Just a Statistics Problem\n06 Introduction to Propensity Scores\n07 Using Propensity Scores\n08 Checking Propensity Scores\n09 Fitting the outcome model\n10 Continuous Exposures and G-Computation\n11 Tipping Point Sensitivity Analyses\n12 Whole Game (Your Turn)\n13 Bonus: Selection Bias\n14 Bonus: Continous Exposures with Propensity Scores"
+    "text": "Hosted slides\nFollowing the above instructions will download a PDF copy of the slides. If you’d like to see the HTML version of the slides, we recommend taking a look at the hosted versions rather than the raw versions in the repository.\n\nSlides\n\n00 Intro\n01 Whole Game\n02 When Standard Methods Succeed\n03 Causal Inference with group_by and summarise\n04 Causal Diagrams\n05 Causal Inference is Not Just a Statistics Problem\n06 Introduction to Propensity Scores\n07 Using Propensity Scores\n08 Checking Propensity Scores\n09 Fitting the outcome model\n10 Continuous Exposures and G-Computation\n11 Tipping Point Sensitivity Analyses\n12 Whole Game (Your Turn)\n13 Bonus: Selection Bias\n14 Bonus: Continous Exposures with Propensity Scores #### 15 Bonus: Machine Learning for Causal Inference"
   },
   {
     "objectID": "index.html",
