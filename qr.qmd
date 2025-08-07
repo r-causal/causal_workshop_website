@@ -1,0 +1,7 @@
+---
+title: "QR Code"
+---
+
+### 
+
+![](img/qr.png){fig-align="center"}
